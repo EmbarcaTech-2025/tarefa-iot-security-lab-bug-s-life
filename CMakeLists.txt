@@ -60,7 +60,7 @@ target_link_libraries(iot_security_lab
         pico_lwip
         # O driver do chip Wi-Fi CYW43 (usado no Pico W).
         pico_cyw43_driver
-        # pico_time
+        pico_time
         # pico_unique_id
         )
 
