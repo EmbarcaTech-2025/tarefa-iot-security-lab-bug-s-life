@@ -102,4 +102,8 @@
 // permitindo ajustar o comportamento da pilha de rede e do cliente MQTT de acordo com os requisitos de memória, 
 // desempenho e funcionalidade do sistema embarcado.
 
+#define MEMP_NUM_SYS_TIMEOUT   (LWIP_NUM_SYS_TIMEOUT_INTERNAL + 1)
+#define MQTT_REQ_MAX_IN_FLIGHT  (5)
+
+
 #endif /* __LWIPOPTS_H__ */
